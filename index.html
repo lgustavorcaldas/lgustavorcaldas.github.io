@@ -63,6 +63,51 @@
                         <li>X e eu uma vez nos perdemos no esgoto.</li>
                         <li>X e eu temos um tio que trabalha na Cidade dos Mortos.</li>
                     </ul>
+                <div style="padding-left: 6%;">
+                    <p>
+                        <h1 style="text-align:center; color: #2F494D; font-family:'Akronim',cursive;">Quer se candidatar para essa mesa?</h1>
+                        <table Style="text-align: center; color: #205D66;">
+                            <tr>
+                                <th>
+                                    <p>
+                                        
+                                        <label for="user-input"><b>Nome</b></label><br />
+                                        <input type="text" id="user-input" name="input" placeholder="Digite aqui seu nome" title="Preencha esse campo com o seu nome" required />
+                                    </p>
+                                    <p>
+                                        <label for="user-date"><b>Data de nascimento*</b></label><br />
+                                        <input type="date" id="user-date" name="date" title="Sua data de nascimento" required />
+                                    </p>
+                                </th>
+                                <th>
+                                    <p>
+                                        <label for="user-input-email"><b>E-mail</b></label><br />
+                                        <input type="text" id="user-input-email" name="input-email" placeholder="Digite aqui seu E-mail" title="Preencha esse campo com o seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required /><br />
+                                    </p>
+                                    <p>
+                                        <b>Sexo:</b><br />
+                                        <input type="radio" id="user-radio" name="radio" title="Você se considera do sexo masculino?" />
+                                        <label for="user-radio">Masc</label>
+                                        <input type="radio" id="user-radio2" name="radio" title="Você se considera do sexo feminino?" /> 
+                                        <label for="user-radio2">Fem</label>
+                                        <input type="radio" id="user-radio3" name="radio" title="Você se considera de outro sexo?" />
+                                        <label for="user-radio3">Outro</label>
+                                    </p>
+                                </th>
+                                <th>
+                                    <p>
+                                        <label for="user-input"><b>Sua experiência com RPG</b></label><br />
+                                        Pouca<input type="range" min="-10" max="10" id="user-range" name="range" title="Qual a sua experiência em rpg" />Muita
+                                    </p>
+                                    <p>
+                                        <label for="user-button-submit"><b>Finalizou?</b></label>
+                                        <input type="submit" id="user-button-submit" name="submit" value="Enviar" />
+                                    </p>
+                                </div>
+                                </th>
+                            </tr>
+                        </table>
+                    </p>
                 </div>
             </div>
         </body>
